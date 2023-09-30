@@ -1,0 +1,110 @@
+body {
+	color: aliceblue;
+	font: bold 12px/1.5em Verdana;
+	background-color: rgb(30,22,37);
+	background-image: url("admin.jpg");
+	background-size: 35%;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+
+h1 {
+	padding: 35px;
+	text-align: center;
+	height: 5%;
+	font-family;:Georgia, serif;
+	background-image: linear-gradient(60deg,#2d0af6c9, #01abe4c9);
+	background-clip: text;
+	font-size:26px;
+	font-weight:bold;
+	margin:0;
+	padding:20px 10px 10px 10px;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+	
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+	border-bottom:1px solid #2763A5;
+	line-height:normal;
+	}
+
+#tabs ul {
+	margin:0;
+	padding:12px 10px 5px 2px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#FFF;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}
+form{
+	color: black;
+	background-color: #36a9e2;
+	padding: 100px 20px 100px 20px;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-image: url("service.jpg");
+}
+
+input{
+	font-size:120%;
+	display: inline-block;
+  	float:left;
+	color: #FFF;
+	background-color: #2763A5;
+}
+
+label{
+	font-size:120%;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+
+form{
+	text-align: center
+}
